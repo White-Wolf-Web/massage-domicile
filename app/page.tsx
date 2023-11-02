@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import MassageADomicile from "../public/femme-masse-a-domicile-souriante.webp";
 import Slider from "@/components/slider";
 import carouselItems from "@/data/carouselData";
+import GoogleMap from "@/components/GoogleMap";
 
 export default function Home() {
 	return (
@@ -78,13 +79,7 @@ export default function Home() {
 					</div>
 				</section>
 				<div>
-					<iframe
-						className={styles.googleMap}
-						loading="lazy"
-						src="https://maps.google.com/maps?q=Buizingen&amp;t=m&amp;z=9&amp;output=embed&amp;iwloc=near"
-						title="Buizingen"
-						aria-label="Buizingen"
-					></iframe>
+					<GoogleMap />
 				</div>
 				<div>
           
