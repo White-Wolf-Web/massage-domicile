@@ -6,6 +6,7 @@ import sliderData from "@/data/carouselData";
 import leftChevron from "@/public/left-arrow.svg";
 import rightChevron from "@/public/right-arrow.svg";
 import { CarouselItem } from "@/data/carouselData";
+import star from "@/public/images/star-icon.webp"
 
 type CarouselProps = {
 	// Définition du type pour les props du composant
@@ -72,9 +73,17 @@ const Slider = ({ items }: CarouselProps) => {
     </div>
 
     {/* Affichage des étoiles */}
-    <div className={styles.stars}>
-        {"★".repeat(currentItem?.stars || 0)}
-    </div>
+	<div className={styles.stars}>
+  {Array.from({ length: currentItem?.stars || 0 }, (_, index) => (
+    <Image
+      key={index}
+      src={star}
+      alt="Star"
+      width={25} // Ajustez selon vos besoins
+      height={25} // Ajustez selon vos besoins
+    />
+  ))}
+</div>
 				{/* Boutons de navigation */}
 				<button type="button" aria-label="Image précédente" onClick={() => toggleImage(-1)} className={`${styles.navigationButton} ${styles.prevButton}`}>
 					<Image src={leftChevron} alt="previous image" width={24} height={24} />
