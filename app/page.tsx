@@ -78,7 +78,7 @@ export default function Home() {
 						</ul>
 					</div>
 				</section>
-				<div>
+				<div className={styles.GoogleMApContainer}>
 					<GoogleMap />
 				</div>
 				<div>

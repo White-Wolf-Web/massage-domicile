@@ -7,11 +7,15 @@
     width: 100%;
     max-width: 1200px;
     height: 300px;
-    border: 0;
+    max-height: 300px;
+    border: 0!important;
     margin: 0 !important;
     padding: 0 !important;
+    background-color: black;
 }
-
+.GoogleMApContainer {
+    max-height: 300px;
+}
 .travel {
     margin: 20px;
 }
@@ -22,9 +26,12 @@
 /* CAROUSEL */
 .sliderContainer {
     background-color: black;
+    padding-top: 20px;
+   
 }
 .sliderHeading1 {
     color: aliceblue;
+    background-color: black;
 }
 .indexInfo {
     font-size: 16px;
@@ -131,6 +138,7 @@
 /* Affichage du nom */
 .name {
     font-weight: bold;
+    color: lightgray;
     margin-bottom: 5px; /* Espacement entre le nom et le métier */
 }
 

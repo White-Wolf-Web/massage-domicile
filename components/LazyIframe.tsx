@@ -43,7 +43,6 @@ const LazyIframe = ({ src, titre, classe, largeur, hauteur }: PropsIframeParesse
       aria-label={titre}
       width={largeur}
       height={hauteur}
-      frameBorder="0"
     ></iframe>
   );
 };

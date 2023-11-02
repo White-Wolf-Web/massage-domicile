@@ -35,6 +35,18 @@ h2 {
 	margin: 25px auto 10px auto;
 	font-family: EB_Garamond;
 }
+
+h3 {
+	font-size: 26px;
+	text-align: center;
+	font-weight: 700;
+	margin: 0;
+	font-family: EB_Garamond;
+}
+
+
+
+
 ul {
   font-family: EB_Garamond;
   font-size: 18px

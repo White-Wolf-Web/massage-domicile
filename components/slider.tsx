@@ -43,7 +43,8 @@ const Slider = ({ items }: CarouselProps) => {
 
 	return (
 		<div className={styles.sliderContainer}>
-			  <h1 className={styles.sliderHeading1}>Commentaires clients</h1>
+		
+			  <h3 className={styles.sliderHeading1}>Commentaires clients</h3>
 			<p className={styles.indexInfo}>
 				{sliderIndex} / {typedSliderData.length}
 			</p>
