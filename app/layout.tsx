@@ -16,6 +16,8 @@ export const montserrat = Montserrat({
 
 export const metadata = {
 	referrer: "origin-when-cross-origin",
+  colorScheme: "light",
+	themeColor: 'black',
 	robots: {
 		index: true,
 		follow: true,
