@@ -5,11 +5,25 @@ import Slider from "@/components/slider";
 import carouselItems from "@/data/carouselData";
 import GoogleMap from "@/components/GoogleMap";
 
+export const metadata = {
+	title: "Massage à domicile - Bruxelles + 40km - Nivelles, Beersel ..",
+	description:
+		'Massage Voyage des Sens 2h 🥰 | Massage Anti-Stress 1h30 ❣️ | Massage Anti-Cellulite 1h30 💝 | Douceur Dorsale 1h30 / 2h 😍 | Toucher Shiatsu 1h30 / 2h 🫶"',
+	canonical: "https://massage-domicile.com/",
+};
+
 export default function Home() {
 	return (
 		<main className={styles.main}>
 			<div className={styles.description}>
-				<Image src={MassageADomicile} alt="Femme souriante recevant un massage à domicile" placeholder="blur" quality={100} sizes="100vw" className={styles.imgBanniere} />
+				<Image
+					src={MassageADomicile}
+					alt="Femme souriante recevant un massage à domicile"
+					placeholder="blur"
+					quality={100}
+					sizes="100vw"
+					className={styles.imgBanniere}
+				/>
 				<h1>Votre Massage à Domicile Bruxelles + 40 km</h1>
 				<section>
 					<div>
@@ -68,11 +82,11 @@ export default function Home() {
 					</div>
 					<div className={styles.travel}>
 						<ul>
-
-						
-
-
-							<li>Cela comprend le <strong className={styles.underline}>temps de déplacement</strong>, le <strong className={styles.underline}>carburant</strong>, le <strong className={styles.underline}>parking</strong>, le montage sur place & le <strong className={styles.underline}>soin</strong>.</li>
+							<li>
+								Cela comprend le <strong className={styles.underline}>temps de déplacement</strong>, le{" "}
+								<strong className={styles.underline}>carburant</strong>, le <strong className={styles.underline}>parking</strong>, le montage sur place &
+								le <strong className={styles.underline}>soin</strong>.
+							</li>
 							<li>J&apos;apporte tout le matériel (table et huiles de massage).</li>
 							<li>Je me déplace dans un rayon de 40 km autour de Beersel</li>
 						</ul>
@@ -82,9 +96,8 @@ export default function Home() {
 					<GoogleMap />
 				</div>
 				<div>
-          
-            <Slider items={carouselItems} />
-        </div>
+					<Slider items={carouselItems} />
+				</div>
 			</div>
 		</main>
 	);

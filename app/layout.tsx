@@ -15,9 +15,6 @@ export const montserrat = Montserrat({
 });
 
 export const metadata = {
-	title: "Massage à domicile - Bruxelles + 40km - Nivelles, Beersel ..",
-	description:
-		'Massage Voyage des Sens 2h 🥰 | Massage Anti-Stress 1h30 ❣️ | Massage Anti-Cellulite 1h30 💝 | Douceur Dorsale 1h30 / 2h 😍 | Toucher Shiatsu 1h30 / 2h 🫶"',
 	referrer: "origin-when-cross-origin",
 	robots: {
 		index: true,
