@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<main className={styles.main}>
 			<div className={styles.description}>
-				<Image src={MassageADomicile} alt="Femme souriante recevant un massage à domicile" placeholder="blur" quality={100} sizes="100vw" />
+				<Image src={MassageADomicile} alt="Femme souriante recevant un massage à domicile" placeholder="blur" quality={100} sizes="100vw" className={styles.imgBanniere} />
 				<h1>Votre Massage à Domicile Bruxelles + 40 km</h1>
 				<section>
 					<div>
