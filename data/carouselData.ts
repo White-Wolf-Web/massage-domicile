@@ -12,7 +12,7 @@ export type CarouselItem = {
 
 const sliderData: CarouselItem[] = [
 	{
-		text: "",
+		text: "aikidokate apres avoir recu un massage à domicile",
 		imageSrc: "/images/fabienne-Anneet.webp",
 		stars: 5,
 		id: 1,
@@ -21,7 +21,7 @@ const sliderData: CarouselItem[] = [
 		job: "Employée Administrative",
 	},
 	{
-		text: "",
+		text: "Prof de Yoga testatnt le massage",
 		imageSrc: "/images/CarolineB.webp",
 		stars: 5,
 		id: 2,
@@ -30,7 +30,7 @@ const sliderData: CarouselItem[] = [
 		job: "Nutrithérapeute",
 	},
 	{
-		text: "",
+		text: "Lea aimant le bien-être",
 		imageSrc: "/images/lea.webp",
 		stars: 5,
 		id: 3,
@@ -40,7 +40,7 @@ const sliderData: CarouselItem[] = [
 	},
 
 	{
-		text: "  ",
+		text: "Personne aimant la relaxation",
 		imageSrc: "/images/laura.webp",
 		stars: 5,
 		id: 4,
@@ -49,7 +49,7 @@ const sliderData: CarouselItem[] = [
 		job: "",
 	},
 	{
-		text: "",
+		text: "Brigitte a opté pour la détente",
 		imageSrc: "/images/brigitteBlairon.webp",
 		stars: 5,
 		id: 5,
@@ -58,7 +58,7 @@ const sliderData: CarouselItem[] = [
 		job: "Retraitrée",
 	},
 	{
-		text: "",
+		text: "Daniela profitant de la relaxation",
 		imageSrc: "/images/daniela.webp",
 		stars: 5,
 		id: 6,
@@ -68,7 +68,7 @@ const sliderData: CarouselItem[] = [
 	},
 
 	{
-		text: "",
+		text: "Joris ayant recu un massage à domicile",
 		imageSrc: "/images/Joris.webp",
 		stars: 5,
 		id: 7,
@@ -77,7 +77,7 @@ const sliderData: CarouselItem[] = [
 		job: "Project Engineer",
 	},
 	{
-		text: "",
+		text: "Brigitte avant de profiter d'un massage",
 		imageSrc: "/images/bb.webp",
 		stars: 5,
 		id: 8,

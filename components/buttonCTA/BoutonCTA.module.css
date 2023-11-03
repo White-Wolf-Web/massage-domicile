@@ -6,7 +6,7 @@
   .boutonCTA {
     display: flex;
     padding: 10px 20px;
-    background-color: #FFA500; /* Orange vif */
+    background-color: #0de0d3; /* Orange vif */
     border: none;
     color: white;
     text-align: center;
@@ -20,7 +20,7 @@
   }
   
     .boutonCTA:hover {
-        background-color: #cc8400; /* Assombrir le bouton lors du survol */
+        background-color: #80f0f0; /* Assombrir le bouton lors du survol */
       text-decoration: none; /* Assurer que le texte n'est pas souligné lors du survol */
     }
   
