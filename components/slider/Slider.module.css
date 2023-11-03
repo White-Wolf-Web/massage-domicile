@@ -1,0 +1,162 @@
+.sliderContainer {
+	background-color: #bad1e4;
+	padding: 20px 0;
+	position: relative;
+	overflow: hidden;
+}
+.sliderHeading1 {
+	color: aliceblue;
+	background-color: #bad1e4;
+}
+.indexInfo {
+	font-size: 16px;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #bad1e4;
+	color: aliceblue;
+}
+
+/* Conteneur principal du carrousel */
+.slider {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 1200px;
+	width: 100%;
+	max-height: 400px;
+	height: 250px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #bad1e4;
+}
+
+/* Affichage de la description de l'image actuelle */
+.imageInfo {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-bottom: 10px; /* Espacement entre la description et l'image */
+	width: 400px;
+	text-align: center;
+}
+
+/* Image actuelle du carrousel */
+.sliderImg {
+	display: block;
+	border-radius: 50%;
+}
+
+/* Styles de base pour les boutons de navigation */
+.navigationButton {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 50%;
+	pointer-events: auto;
+	z-index: 10;
+}
+
+/* Bouton pour naviguer vers l'image précédente */
+.prevButton {
+	left: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+/* Bouton pour naviguer vers l'image suivante */
+.nextButton {
+	right: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+/* Icônes de flèche pour les boutons */
+.navigationButton img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* Conteneur pour l'image et le texte */
+.imageContainer {
+	display: flex;
+	align-items: center;
+}
+/* ... Vos autres styles ... */
+
+/* Conteneur pour l'image et le texte */
+.contentContainer {
+	display: flex;
+	align-items: center;
+}
+
+/* Conteneur pour le nom et le métier */
+.textContainer {
+	margin-left: 20px; /* Espacement entre l'image et le texte */
+}
+
+/* Affichage des étoiles */
+.stars {
+	text-align: center;
+	font-size: 24px;
+	color: gold;
+	margin-top: 10px;
+}
+
+/* Affichage du nom */
+.name {
+	font-weight: bold;
+	color: lightgray;
+	margin-bottom: 5px;
+}
+
+/* Affichage du métier */
+.job {
+	color: grey;
+}
+
+@keyframes slideInFromSide {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideOutToSide {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(100%);
+	}
+}
+
+.sliderEnter {
+	will-change: transform, opacity;
+	animation: slideInFromSide 1.75s ease-out forwards;
+}
+
+.sliderExit {
+	will-change: transform, opacity;
+	animation: slideOutToSide 1.75s ease-out forwards;
+}
+
+.navigationContainer {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	display: flex;
+	justify-content: space-between;
+	z-index: 10;
+}

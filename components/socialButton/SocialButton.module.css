@@ -1,0 +1,38 @@
+.facebook,
+.pinterest,
+.instagram {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	color: aliceblue;
+	transition: background-color 0.3s;
+	text-decoration: none;
+	margin: 5px auto;
+}
+
+.facebook {
+	background-color: #3b5998;
+}
+
+.facebook:hover {
+	background-color: #2d4373;
+}
+
+.pinterest {
+	background-color: #bd081c;
+}
+
+.pinterest:hover {
+	background-color: #8c0615;
+}
+
+.instagram {
+	background-color: #e4405f;
+}
+
+.instagram:hover {
+	background-color: #d6244f;
+}

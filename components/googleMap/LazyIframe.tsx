@@ -1,7 +1,6 @@
 "use client"
-import styles from "@/app/page.module.css"
+import styles from "./GoogleMap.module.css"
 import { useEffect, useRef, useState } from 'react';
-// import styles from './IframeParesseux.module.css'; // Ajustez le chemin vers votre fichier de styles
 
 interface PropsIframeParesseux {
   src: string;

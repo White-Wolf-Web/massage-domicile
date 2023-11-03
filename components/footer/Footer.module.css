@@ -1,0 +1,33 @@
+.footer {
+    background-color: black; /* Couleur de fond du footer */
+    color:aliceblue; /* Couleur du texte */
+    padding: 5px 0; /* Padding vertical */
+  }
+  
+  .footerTop {
+    display: flex; /* Utilisation de Flexbox */
+    justify-content: space-between;
+    align-items: center; /* Alignement vertical */
+    padding: 0 ; /* Padding horizontal */
+    margin-bottom: 5px; /* Espace en dessous de la première partie */
+  }
+  
+  .footerSection {
+    display: flex; /* Utilisez flexbox pour centrer l'image */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    flex: 1; /* Chaque section prendra un espace égal */
+    padding: 0 10px; /* Padding pour ne pas coller aux autres sections */
+    flex-direction: column;
+  }
+  
+  .footerBottom {
+    text-align: center; /* Centrage du texte */
+    padding: 5px 10%; /* Padding horizontal */
+    border-top: 1px solid #dee2e6; /* Ligne de séparation */
+  }
+  .imgLettreOr {
+    margin: 0 auto;
+    width: 300;
+    height: auto;
+  }

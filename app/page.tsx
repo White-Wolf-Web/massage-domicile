@@ -1,9 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import MassageADomicile from "../public/femme-masse-a-domicile-souriante.webp";
-import Slider from "@/components/slider";
+import Slider from "@/components/slider/Slider";
 import carouselItems from "@/data/carouselData";
-import GoogleMap from "@/components/GoogleMap";
+import GoogleMap from "@/components/googleMap/GoogleMap";
+import Footer from "@/components/footer/Footer";
 
 export const metadata = {
 	title: "Massage à domicile - Bruxelles + 40km - Nivelles, Beersel ..",
@@ -99,6 +100,7 @@ export default function Home() {
 					<Slider items={carouselItems} />
 				</div>
 			</div>
+			<Footer />
 		</main>
 	);
 }
