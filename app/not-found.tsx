@@ -1,10 +1,11 @@
-const NotFound = () => {
-    return (
-      <div className="error">
-        <h1>404</h1>
-        <p>Oups, la page que vous demandez n&apos;existe pas.</p>
-      </div>
-    );
-  };
-  
-  export default NotFound;
+import Link from 'next/link'
+ 
+export default function NotFound() {
+  return (
+    <div>
+      <h2>404</h2>
+      <p>Oups, la page que vous demandez n&apos;existe pas.</p>
+      <Link href="/">Accueil</Link>
+    </div>
+  )
+}

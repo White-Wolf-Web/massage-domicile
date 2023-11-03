@@ -1,12 +1,16 @@
 "use client";
 
-const Error = () => {
-  return (
-    <div className="error">
-      <h1>Erreur</h1>
-      <p>Oups, une erreur s&apos;est produite.</p>
-    </div>
-  );
-};
+import { useEffect } from "react";
 
-export default Error;
+export default function Error({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
+	useEffect(() => {
+		console.error(error);
+	}, [error]);
+
+	return (
+		<div>
+			<h2>Quelque chose ne va pas </h2>
+			<button onClick={() => reset()}>Essaie Encore</button>
+		</div>
+	);
+}
