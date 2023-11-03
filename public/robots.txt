@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+
+User-agent: Googlebot-Image
+Disallow:
+
+Sitemap: https://massage-domicile.com/sitemap.xml

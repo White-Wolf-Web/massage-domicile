@@ -47,7 +47,7 @@ export const metadata = {
 		siteName: "Massage à Domicile",
 		images: [
 			{
-				url: "https://massage-domicile.com/public/femme-masse-a-domicile-souriante.webp",
+				url: "https://massage-domicile.com/femme-masse-a-domicile-souriante.webp",
 				width: 1200,
 				height: 400,
 				alt: "Femme souriante recevant un de mes massages",
