@@ -5,7 +5,7 @@ export function BoutonCTA  () {
   return (
     <div className={styles.boutonCTAContainer}>
       <Link href="/contact" className={styles.boutonCTA}>
-          Contactez-nous
+          Contactez-nous  <br />    0477131993
       </Link>
     </div>
   );

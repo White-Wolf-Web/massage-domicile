@@ -5,12 +5,16 @@ import Slider from "@/components/slider/Slider";
 import carouselItems from "@/data/carouselData";
 import GoogleMap from "@/components/googleMap/GoogleMap";
 import Footer from "@/components/footer/Footer";
+import { MetadataHomePage } from "@/components/metadata/Metadata";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
 	title: "Massage à domicile - Bruxelles + 40km - Nivelles, Beersel ..",
 	description:
 		'Massage Voyage des Sens 2h 🥰 | Massage Anti-Stress 1h30 ❣️ | Massage Anti-Cellulite 1h30 💝 | Douceur Dorsale 1h30 / 2h 😍 | Toucher Shiatsu 1h30 / 2h 🫶"',
+		alternates: {
 	canonical: "https://massage-domicile.com/",
+		}
 };
 
 export default function Home() {
@@ -28,7 +32,8 @@ export default function Home() {
 				<h1>Votre Massage à Domicile Bruxelles + 40 km</h1>
 				<section>
 					<div>
-						<h2>Massage &apos;Voyage des Sens&apos; - 2h</h2>
+					<div className={styles.serviceContainer}>
+						<h2>Massage &apos;Voyage des Sens&apos; - 2h</h2> <span className={styles.price}>165€</span></div>
 						<p>
 							Ce massage doux est une invitation à un voyage intérieur, où chaque toucher est conçu pour éveiller les sens et procurer une sensation de
 							bien-être profond. Il transcende la simple relaxation physique pour toucher l&apos;âme, enveloppant le corps et l&apos;esprit dans une douce
@@ -36,8 +41,8 @@ export default function Home() {
 							Ce massage doux est une parenthèse enchantée dans le tumulte du quotidien, une oasis de douceur au cœur de nos vies trépidantes.
 						</p>
 					</div>
-					<div>
-						<h2>Massage &apos;Anti-Stress&apos; - 1h30</h2>
+					<div><div className={styles.serviceContainer}>
+						<h2>Massage &apos;Anti-Stress&apos; - 1h30</h2><span className={styles.price}>130€</span></div>
 						<p>
 							Dans le tourbillon incessant de la vie moderne, le stress s&apos;infiltre souvent, s&apos;accumulant silencieusement dans nos muscles, nos
 							esprits et nos émotions. Le massage anti-stress est une réponse thérapeutique à cette pression omniprésente. Conçu pour dénouer les noeuds de
@@ -47,8 +52,8 @@ export default function Home() {
 							à un état de sérénité et de tranquillité.
 						</p>
 					</div>
-					<div>
-						<h2>Massage &apos;Anti-Cellulite&apos; - 1h30</h2>
+					<div><div className={styles.serviceContainer}>
+						<h2>Massage &apos;Anti-Cellulite&apos; - 1h30</h2><span className={styles.price}>135€</span></div>
 						<p>
 							La cellulite, aussi surnommée &apos;peau d&apos;orange&apos;, est un phénomène naturel que beaucoup cherchent à atténuer. Le massage
 							anti-cellulite est une réponse ciblée à cette préoccupation esthétique et bien-être. À la croisée des techniques de drainage et de la
@@ -58,8 +63,8 @@ export default function Home() {
 							d&apos;un aspect plus uniforme et d&apos;une silhouette affinée.
 						</p>
 					</div>
-					<div>
-						<h2>&apos;Douceur Dorsale&apos; - 1h30 / 2h</h2>
+					<div><div className={styles.serviceContainer}>
+						<h2>&apos;Douceur Dorsale&apos; - 1h30 / 2h</h2><span className={styles.price}>130€ / 165€</span></div>
 						<p>
 							Le dos, cette vaste étendue de muscles, de tendons et de vertèbres, est souvent le théâtre de tensions accumulées, que ce soit par les
 							postures quotidiennes, le stress ou les activités physiques. Douceur Dorsale est bien plus qu&apos;un simple massage du dos. C&apos;est une
@@ -69,8 +74,8 @@ export default function Home() {
 							détendu.
 						</p>
 					</div>
-					<div>
-						<h2>&apos;Toucher Shiatsu&apos; - 1h30 / 2h</h2>
+					<div><div className={styles.serviceContainer}>
+						<h2>&apos;Toucher Shiatsu&apos; - 1h30 / 2h</h2><span className={styles.price}>130€ / 165€</span></div>
 						<p>
 							Le &apos;Toucher Shiatsu&apos;, originaire du Japon, est une pratique thérapeutique ancienne qui s&apos;inscrit dans la tradition de la
 							médecine orientale. Basé sur les principes de l&apos;énergie vitale qui circule dans le corps humain à travers des méridiens spécifiques, le
@@ -101,6 +106,7 @@ export default function Home() {
 				</div>
 			</div>
 			<Footer />
+			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataHomePage) }} />
 		</main>
 	);
 }

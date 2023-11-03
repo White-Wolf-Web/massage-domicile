@@ -5,7 +5,7 @@
 	overflow: hidden;
 }
 .sliderHeading1 {
-	color: aliceblue;
+	color: #1D438A;
 	background-color: #bad1e4;
 }
 .indexInfo {
@@ -13,10 +13,9 @@
 	margin-bottom: 10px;
 	text-align: center;
 	background-color: #bad1e4;
-	color: aliceblue;
+	color:  #1D438A;
 }
 
-/* Conteneur principal du carrousel */
 .slider {
 	position: relative;
 	display: flex;
@@ -34,13 +33,14 @@
 
 /* Affichage de la description de l'image actuelle */
 .imageInfo {
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: #1D438A	;
 	color: white;
 	padding: 5px 10px;
-	border-radius: 5px;
+	border-radius: 25px;
 	margin-bottom: 10px; /* Espacement entre la description et l'image */
 	width: 400px;
 	text-align: center;
+
 }
 
 /* Image actuelle du carrousel */
@@ -54,13 +54,14 @@
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: #1D438A	;
 	border: none;
 	cursor: pointer;
 	padding: 10px;
 	border-radius: 50%;
 	pointer-events: auto;
 	z-index: 10;
+	overflow: hidden;
 }
 
 /* Bouton pour naviguer vers l'image précédente */
@@ -89,7 +90,6 @@
 	display: flex;
 	align-items: center;
 }
-/* ... Vos autres styles ... */
 
 /* Conteneur pour l'image et le texte */
 .contentContainer {
@@ -99,27 +99,26 @@
 
 /* Conteneur pour le nom et le métier */
 .textContainer {
-	margin-left: 20px; /* Espacement entre l'image et le texte */
+	margin-left: 20px; 
 }
 
 /* Affichage des étoiles */
 .stars {
 	text-align: center;
 	font-size: 24px;
-	color: gold;
 	margin-top: 10px;
 }
 
 /* Affichage du nom */
 .name {
 	font-weight: bold;
-	color: lightgray;
+	color: black;
 	margin-bottom: 5px;
 }
 
 /* Affichage du métier */
 .job {
-	color: grey;
+	color: rgba(0, 0, 0, 0.9);;
 }
 
 @keyframes slideInFromSide {
@@ -160,3 +159,9 @@
 	justify-content: space-between;
 	z-index: 10;
 }
+
+@media (max-width: 550px) {
+	.navigationButton  {
+		display: none;
+	}
+  }
