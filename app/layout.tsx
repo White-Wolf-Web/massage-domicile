@@ -39,6 +39,23 @@ export const metadata = {
 		yandex: "yandex",
 		yahoo: "yahoo",
 	},
+	openGraph: {
+		title: "Massage à domicile Bruxelles - Nivelles - Tubize - Wavre",
+		description:
+			"Service de massage à domicile operant dans le Brabant wallon - Bruxelles - Nivelles - Tubize - Wavre",
+		url: "https://massage-domicile.com",
+		siteName: "Massage à Domicile",
+		images: [
+			{
+				url: "https://massage-domicile.com/public/femme-masse-a-domicile-souriante.webp",
+				width: 1200,
+				height: 400,
+				alt: "Femme souriante recevant un de mes massages",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
+	},
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
