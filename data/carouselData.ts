@@ -8,6 +8,7 @@ export type CarouselItem = {
 	stars: number;
 	description: string;
 	job: string;
+	title: string;
 };
 
 const sliderData: CarouselItem[] = [
@@ -19,15 +20,17 @@ const sliderData: CarouselItem[] = [
 		name: "Fabienne Anneet",
 		description: "Sans aucun doute l'une des expériences qui m'a mise sur le bon chemin. J'y ai reçu l'aide adéquate pour mettre des mots et faire éclater des évidences sur des signaux et des symptômes physiques. J'y suis allée plusieurs fois pour des séances de shiatsu et à chaque fois, la même richesse ! Merci !",
 		job: "Employée Administrative",
+		title: "Fabienne après un massage à domicile",
 	},
 	{
-		text: "Prof de Yoga testatnt le massage",
+		text: "Prof de Yoga testant le massage",
 		imageSrc: "/images/CarolineB.webp",
 		stars: 5,
 		id: 2,
 		name: "Caroline Baïni",
 		description: "Je recommande 🤗 Personne à l'écoute, comprendre et aide à débloquer notre nous intérieur et ce qui nous empêche d'avancer. Il a le côté Professionnel mais surtout humain ce qu'il faut pour pourvoir aider correctement le patient.",
 		job: "Nutrithérapeute",
+		title: "Le sourire de Caroline apres avoir recu un massage à domicile",
 	},
 	{
 		text: "Lea aimant le bien-être",
@@ -37,6 +40,7 @@ const sliderData: CarouselItem[] = [
 		name: "Léa De Saedeleer",
 		description: "J y suis allé plus d une fois, toujours reçue avec bienveillance . C est endroit rempli de sérénité. Le praticien Stéphane, est accueillant, à l écoute. Tout est douceur. Quand on ressort de chez lui, on se sent calme. Ce n'est que du bonheur. Du bien être. On se sent bien.",
 		job: "Etudiante",
+		title: "Léa avant de recevoir son massage",
 	},
 
 	{
@@ -47,6 +51,7 @@ const sliderData: CarouselItem[] = [
 		name: "Darquennes Laura",
 		description: "Je recommande 🤗 Personne à l'écoute, comprendre et aide à débloquer notre nous intérieur et ce qui nous empêche d'avancer. Il a le côté Professionnel mais surtout humain ce qu'il faut pour pourvoir aider correctement le patient.",
 		job: "",
+		title: "Juste apres un Shiatsu",
 	},
 	{
 		text: "Brigitte a opté pour la détente",
@@ -56,6 +61,7 @@ const sliderData: CarouselItem[] = [
 		name: "Brigitte Blairon",
 		description: "Il y a des personnes qui ont une grande pratique, mais pour certains aussi un don qu'ils partagent dans leur travaille, merci Stéphane pour cela",
 		job: "Retraitrée",
+		title: "Brigitte après un massage Anti-Stress",
 	},
 	{
 		text: "Daniela profitant de la relaxation",
@@ -65,6 +71,7 @@ const sliderData: CarouselItem[] = [
 		name: "Daniela Ploscariu",
 		description: "C'était une expérience incroyable avec un résultat excellent les jours qui ont suivi.. j ai adoré.",
 		job: "Gérante Horeca",
+		title: "Daniela ayant recu un massage anti-stress",
 	},
 
 	{
@@ -75,6 +82,7 @@ const sliderData: CarouselItem[] = [
 		name: "Joris Vander Cammen",
 		description: "Zeer aangename sfeer en professionele massage.",
 		job: "Project Engineer",
+		title: "Joris qui vient de recevoir un douceur dorsale",
 	},
 	{
 		text: "Brigitte avant de profiter d'un massage",
@@ -84,6 +92,7 @@ const sliderData: CarouselItem[] = [
 		name: "Brigitte Baleine",
 		description: "Incontestablement entre de bonnes mains. On y entre un poids sur les épaules. On en sort apaisé. A fréquenter les yeux fermés.",
 		job: "Psychologue",
+		title: "Brigitte après un Massage Anti-Cellulite ",
 	},
 ];
 

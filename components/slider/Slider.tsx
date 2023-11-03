@@ -16,6 +16,7 @@ type CarouselItem = {
 	name: string;
 	description: string;
 	job: string;
+	title: string;
 };
 
 type CarouselProps = {
@@ -69,10 +70,10 @@ const Slider = ({ items }: CarouselProps) => {
 
 			<div className={styles.navigationContainer}>
 				<button type="button" aria-label="Image précédente" onClick={() => toggleImage(-1)} className={`${styles.navigationButton} ${styles.prevButton}`}>
-					<Image src={leftChevron} alt="commentaire précedant (d'un massage à domicile) " width={24} height={24} />
+					<Image src={leftChevron} alt="commentaire précedant (d'un massage à domicile) " width={24} height={24} title="Précédant" />
 				</button>
 				<button type="button" aria-label="Image suivante" onClick={() => toggleImage(1)} className={`${styles.navigationButton} ${styles.nextButton}`}>
-					<Image src={rightChevron} alt="commentaire suivant (d'un massage à Bruxelles) " width={24} height={24} />
+					<Image src={rightChevron} alt="commentaire suivant (d'un massage à Bruxelles) " width={24} height={24} title="Suivant" />
 				</button>
 			</div>
 
@@ -82,6 +83,7 @@ const Slider = ({ items }: CarouselProps) => {
 					<Image
 						src={currentItem?.imageSrc || "/images/placeholder.jpg"}
 						alt={currentItem?.text || "Default alt text"}
+						title={currentItem?.title || "Photo de la personne massée"}
 						className={styles.sliderImg}
 						width={60}
 						height={60}
@@ -93,7 +95,7 @@ const Slider = ({ items }: CarouselProps) => {
 				</div>
 				<div className={styles.stars}>
 					{Array.from({ length: currentItem?.stars || 0 }, (_, index) => (
-						<Image key={index} src={star} alt="Star" width={25} height={25} />
+						<Image key={index} src={star} alt="Star" width={25} height={25} title="etoile en or pour l'évaluation"/>
 					))}
 				</div>
 			</div>

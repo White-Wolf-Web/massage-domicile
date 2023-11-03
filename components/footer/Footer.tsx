@@ -18,6 +18,7 @@ export function Footer  ()  {
           width={300}
           height={111}
 					className={styles.imgLettreOr}
+          title="MAssage à domicile en 3D et Or"
 				/>
             
            < BoutonCTA />

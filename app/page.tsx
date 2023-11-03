@@ -28,9 +28,10 @@ export default function Home() {
 					quality={100}
 					sizes="100vw"
 					className={styles.imgBanniere}
+					title="Ce sourire en dit long sur le massage relaxant qu'elle reçoit"
 				/>
 				<h1 id="main-heading">Votre Massage à Domicile Bruxelles + 40 km</h1>
-				<section aria-labelledby="services-heading">
+				<section>
 					<div>
 						<div className={styles.serviceContainer} aria-labelledby="massage-voyage-sens-heading">
 							<h2 id="massage-voyage-sens-heading">Massage &apos;Voyage des Sens&apos; - 2h</h2>{" "}
