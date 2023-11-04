@@ -118,7 +118,7 @@ export const MetadataHomePage = {
 			},
 			author: {
 				"@type": "Person",
-				name: "Prénom Nom",
+				name: "Stéphane",
 			},
 		},
 	],

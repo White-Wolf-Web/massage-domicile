@@ -40,7 +40,7 @@ export default function Home() {
 							</span>
 						</div>
 						<p>
-							Ce massage doux est une invitation à un voyage intérieur, où chaque toucher est conçu pour éveiller les sens et procurer une sensation de
+							Ce massage doux est une invitation à un voyage intérieur, où chaque toucher est conçu afin d&apos;éveiller les sens et procurer une sensation de
 							bien-être profond. Il transcende la simple relaxation physique pour toucher l&apos;âme, enveloppant le corps et l&apos;esprit dans une douce
 							étreinte de sérénité. Plus qu&apos;une simple technique, c&apos;est une danse, une célébration de la sensibilité et de la connexion humaine.
 							Ce massage doux est une parenthèse enchantée dans le tumulte du quotidien, une oasis de douceur au cœur de nos vies trépidantes.
@@ -54,12 +54,12 @@ export default function Home() {
 							</span>
 						</div>
 						<p>
-							Dans le tourbillon incessant de la vie moderne, le stress s&apos;infiltre souvent, s&apos;accumulant silencieusement dans nos muscles, nos
+							Dans le tourbillon incessant de la vie moderne, le stress s&apos;infiltre souvent, s&apos;accumulant silencieusement en nos muscles, nos
 							esprits et nos émotions. Le massage anti-stress est une réponse thérapeutique à cette pression omniprésente. Conçu pour dénouer les noeuds de
 							tension, revitaliser l&apos;esprit fatigué et restaurer l&apos;équilibre intérieur, ce massage est une véritable bouffée d&apos;oxygène pour
-							le corps et l&apos;âme. Chaque mouvement et chaque technique utilisée vise à relâcher la pression, stimuler la circulation et promouvoir une
+							le corps et l&apos;âme. Chaque mouvement et technique utilisée vise à relâcher la pression, stimuler la circulation et promouvoir une
 							relaxation profonde. Offrez-vous une pause, un moment rien qu&apos;à vous, et laissez les mains expertes chasser le stress, pour vous ramener
-							à un état de sérénité et de tranquillité.
+							à un état de sérénité et de tranquillité. Se faire masser régulièrement aide à éliminer ces tensions.
 						</p>
 					</div>
 					<div>
@@ -75,7 +75,7 @@ export default function Home() {
 							stimulation circulatoire, ce massage vise à déloger les dépôts de graisse, favoriser l&apos;élimination des toxines et tonifier la peau. Plus
 							qu&apos;un simple geste beauté, il s&apos;agit d&apos;une démarche complète qui associe savoir-faire manuel et bienfaits physiologiques pour
 							une peau plus ferme et visiblement plus lisse. Offrez-vous ce soin spécifique, et ressentez les bénéfices d&apos;une peau revitalisée,
-							d&apos;un aspect plus uniforme et d&apos;une silhouette affinée.
+							d&apos;un aspect plus uniforme et d&apos;une silhouette affinée. Masser ces zones adipeuses régulièrement aide à les raffermir.
 						</p>
 					</div>
 					<div>
@@ -87,11 +87,11 @@ export default function Home() {
 						</div>
 						<p>
 							Le dos, cette vaste étendue de muscles, de tendons et de vertèbres, est souvent le théâtre de tensions accumulées, que ce soit par les
-							postures quotidiennes, le stress ou les activités physiques. Douceur Dorsale est bien plus qu&apos;un simple massage du dos. C&apos;est une
+							postures quotidiennes, le stress ou les activités physiques. Douceur Dorsale est bien plus qu&apos;un simple massage à domicile du dos. C&apos;est une
 							immersion profonde dans le bien-être, une exploration détaillée des points de tension, offrant une libération et une revitalisation de cette
 							zone si cruciale de notre anatomie. Chaque pression, chaque mouvement est soigneusement étudié pour apporter le soulagement le plus profond,
 							redonnant à votre dos toute sa souplesse et sa vitalité. Laissez-vous envelopper par ce soin, et redécouvrez le plaisir d&apos;un dos léger et
-							détendu.
+							détendu. Se faire masser régulièrement le dos devrait être remboursé.
 						</p>
 					</div>
 					<div>
@@ -106,9 +106,9 @@ export default function Home() {
 							médecine orientale. Basé sur les principes de l&apos;énergie vitale qui circule dans le corps humain à travers des méridiens spécifiques, le
 							Shiatsu, littéralement traduit par &apos;pression des doigts&apos;, implique l&apos;utilisation de la pression manuelle pour équilibrer et
 							harmoniser ces énergies. L&apos;objectif principal du Toucher Shiatsu est de rétablir la circulation énergétique optimale, de détendre le
-							corps et l&apos;esprit, et de favoriser un bien-être global. Il s&apos;agit plus d&apos;une approche holistique qui prend en compte
-							l&apos;individu dans sa globalité, englobant l&apos;aspect physique, émotionnel, mental et spirituel. Dans un monde où le stress et la tension
-							sont omniprésents, le Toucher Shiatsu offre une pause régénératrice, un moment de reconnexion profonde avec soi-même.
+							corps et l&apos;esprit, et de favoriser un bien-être global. Il s&apos;agit d&apos;une approche holistique qui prend en compte
+							l&apos;individu dans sa globalité, englobant l&apos;aspect physique, émotionnel, mental et spirituel. En un monde où le stress et la tension
+							sont omniprésents, le Toucher Shiatsu à domicile offre une pause régénératrice, un moment de reconnexion profonde avec soi-même.
 						</p>
 					</div>
 					<div className={styles.travel}>
@@ -120,7 +120,7 @@ export default function Home() {
 							</li>
 							<li>J&apos;apporte tout le matériel (table et huiles de massage).</li>
 							<li>Je me déplace dans un rayon de 40 km autour de Beersel</li>
-							<li>Possibilité de vous offrir un massage jusque 4h</li>
+							<li>Possibilité de vous offrir un massage à domicile jusque 4h</li>
 						</ul>
 					</div>
 				</section>
