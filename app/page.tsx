@@ -14,7 +14,11 @@ export const metadata: Metadata = {
 		'Massage Voyage des Sens 2h 🥰 | Massage Anti-Stress 1h30 ❣️ | Massage Anti-Cellulite 1h30 💝 | Douceur Dorsale 1h30 / 2h 😍 | Toucher Shiatsu 1h30 / 2h 🫶"',
 	alternates: {
 		canonical: "https://massage-domicile.com/",
+		
 	},
+	verification: {
+		google: "-AOG_A13vVBBl08ja7Rleu_49AWbtcTraxxjAqs2fBM",
+	  },
 };
 
 export default function Home() {
