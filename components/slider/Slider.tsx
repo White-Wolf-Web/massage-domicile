@@ -95,7 +95,7 @@ const Slider = ({ items }: CarouselProps) => {
 				</div>
 				<div className={styles.stars}>
 					{Array.from({ length: currentItem?.stars || 0 }, (_, index) => (
-						<Image key={index} src={star} alt="Star" width={25} height={25} title="etoile en or pour l'évaluation"/>
+						<Image key={index} src={star} alt="Star" width={25} height={25} title="etoile en or pour l'évaluation du massage"/>
 					))}
 				</div>
 			</div>
