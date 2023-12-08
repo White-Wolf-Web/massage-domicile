@@ -10,9 +10,9 @@ import { Metadata } from "next";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-	title: "Massage à domicile - Bruxelles + 40km - Nivelles, Beersel ..",
+	title: "Massage à domicile – Bruxelles, Nivelles, Courcelles + 40km",
 	description:
-		'Massage Voyage des Sens 2h 🥰 | Massage Anti-Stress 1h30 ❣️ | Massage Anti-Cellulite 1h30 💝 | Douceur Dorsale 1h30 / 2h 😍 | Toucher Shiatsu 1h30 / 2h 🫶"',
+		'Massages à domicile à Bruxelles – Nivelles – Courcelles & 40 km autour : Voyage des Sens, Massage Anti-Stress, Anti-Cellulite, Douceur Dorsale, Toucher Shiatsu"',
 	alternates: {
 		canonical: "https://massage-domicile.com/",
 	},
