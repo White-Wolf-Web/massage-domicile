@@ -3,7 +3,44 @@
 
 <url>
   <loc>https://massage-domicile.com/</loc>
-  <lastmod>2023-11-03T18:19:33+00:00</lastmod>
+  <lastmod>2023-12-19T20:11:07+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
+<url>
+  <loc>https://massage-domicile.com/nivelles</loc>
+  <lastmod>2023-12-19T20:11:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://massage-domicile.com/courcelles</loc>
+  <lastmod>2023-12-19T20:11:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://massage-domicile.com/namur</loc>
+  <lastmod>2023-12-19T20:11:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://massage-domicile.com/charleroi</loc>
+  <lastmod>2023-12-19T20:11:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://massage-domicile.com/mons</loc>
+  <lastmod>2023-12-19T20:11:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://massage-domicile.com/bruxelles</loc>
+  <lastmod>2023-12-19T20:11:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://massage-domicile.com/halle</loc>
+  <lastmod>2023-12-19T20:11:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 
 </urlset>
