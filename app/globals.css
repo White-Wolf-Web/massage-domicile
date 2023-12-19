@@ -45,7 +45,12 @@ h3 {
 	font-family: EB_Garamond;
 }
 
-
+footer {
+	width: 100%;
+	max-width: 1200px;
+	position: relative;
+	margin: 0 auto;
+}
 
 
 ul {

@@ -1,17 +1,17 @@
-export const MetadataHomePage = {
+export const MetadataBruxelles = {
 	"@context": "https://schema.org",
 	"@type": "HealthAndBeautyBusiness",
-	"name": "Massage à domicile",
+	"name": "Massage à domicile Bruxelles",
 	"image": "https://massage-domicile.com/femme-masse-a-domicile-souriante.webp",
 	"@id": "https://massage-domicile.com/",
 	"url": "https://massage-domicile.com/",
 	"telephone": "+32477131993",
 	"address": {
 		"@type": "PostalAddress",
-		"addressRegion" : "Brabant",
-		"streetAddress": "Octaaf de kerchove d'exaerdestraat 193",
-		"addressLocality": "Buizingen",
-		"postalCode": "1501",
+		"addressRegion" : "Bruxelles + 19 communes",
+		"streetAddress": "",
+		"addressLocality": "Bruxelles",
+		"postalCode": "",
 		"addressCountry": "BE"
 	},
 	"geo": {

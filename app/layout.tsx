@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat, EB_Garamond } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/footer/Footer";
+import Header from "@/components/header/Header";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 export const garamond = EB_Garamond({
@@ -16,8 +19,8 @@ export const montserrat = Montserrat({
 
 export const metadata = {
 	referrer: "origin-when-cross-origin",
-  colorScheme: "light",
-	themeColor: 'black',
+	colorScheme: "light",
+	themeColor: "black",
 	robots: {
 		index: true,
 		follow: true,
@@ -41,8 +44,7 @@ export const metadata = {
 	},
 	openGraph: {
 		title: "Massage à domicile Bruxelles - Nivelles - Tubize - Wavre",
-		description:
-			"Service de massage à domicile operant dans le Brabant wallon - Bruxelles - Nivelles - Tubize - Wavre",
+		description: "Service de massage à domicile operant dans le Brabant wallon - Bruxelles - Nivelles - Tubize - Wavre",
 		url: "https://massage-domicile.com",
 		siteName: "Massage à Domicile",
 		images: [
@@ -61,7 +63,15 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="fr">
-			<body className={montserrat.className}>{children}</body>
+			<Head>
+				<meta name="google-site-verification" content="AOG_A13vVBBl08ja7Rleu_49AWbtcTraxxjAqs2fBM" />
+			</Head>
+			<body className={montserrat.className}>
+				<main>
+					{" "}
+				<Header />	{children} <Footer />
+				</main>
+			</body>
 		</html>
 	);
 }

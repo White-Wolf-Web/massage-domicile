@@ -1,23 +1,23 @@
-export const MetadataHomePage = {
+export const MetadataCharleroi = {
 	"@context": "https://schema.org",
 	"@type": "HealthAndBeautyBusiness",
-	"name": "Massage à domicile",
+	"name": "Massage à domicile région de Charleroi",
 	"image": "https://massage-domicile.com/femme-masse-a-domicile-souriante.webp",
 	"@id": "https://massage-domicile.com/",
 	"url": "https://massage-domicile.com/",
 	"telephone": "+32477131993",
 	"address": {
 		"@type": "PostalAddress",
-		"addressRegion" : "Brabant",
-		"streetAddress": "Octaaf de kerchove d'exaerdestraat 193",
-		"addressLocality": "Buizingen",
-		"postalCode": "1501",
+		"addressRegion" : "Hainault",
+		"streetAddress": "",
+		"addressLocality": "Charleroi et ses environs",
+		"postalCode": "",
 		"addressCountry": "BE"
 	},
 	"geo": {
 		"@type": "GeoCoordinates",
-		"latitude": 50.7460655,
-		"longitude": 4.2607546
+		"latitude": 50.4226978,
+		"longitude": 4.3681505
 	},
 	"openingHoursSpecification": [
 		{

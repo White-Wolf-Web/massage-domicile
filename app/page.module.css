@@ -3,12 +3,21 @@
 	height: auto;
 }
 
+.textAlignCenter {
+	text-align: center;
+}
+
 .GoogleMApContainer {
 	max-height: 300px;
 }
+
 .travel {
-	margin: 20px;
+	margin:20px 0 ;
 }
+.lastComment {
+	margin: 20px 0;
+}
+
 .underline {
 	text-decoration: underline;
 }
@@ -29,6 +38,21 @@
 	order: 2;
   }
   
+.link {
+	color: inherit;              /* Empêche le changement de couleur */
+	text-decoration: none;       /* Aucun soulignement */
+	transition: color 0.3s ease; /* Effet de transition pour le survol */
+  }
+  
+  .link:hover {
+	color: #0070f3;            /* Couleur au survol */
+  }
+  
+  .link:active {
+	color: #ff4500;             /* Couleur au clic */
+  }
+
+
   @media (max-width: 600px) {
 	.price {
 		font-size: 22px;

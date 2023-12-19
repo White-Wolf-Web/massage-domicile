@@ -1,18 +1,18 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "@/app/page.module.css";
 import MassageADomicile from "../public/femme-masse-a-domicile-souriante.webp";
 import Slider from "@/components/slider/Slider";
 import carouselItems from "@/data/carouselData";
 import GoogleMap from "@/components/googleMap/GoogleMap";
-import Footer from "@/components/footer/Footer";
+import Link from "next/link";
 import { MetadataHomePage } from "@/components/metadata/Metadata";
 import { Metadata } from "next";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-	title: "Massage à domicile – Bruxelles, Nivelles, Courcelles + 40km",
+	title: "Massage à domicile – Bruxelles, Nivelles, Courcelles + 50km",
 	description:
-		'Massages à domicile à Bruxelles – Nivelles – Courcelles & 40 km autour : Voyage des Sens, Massage Anti-Stress, Anti-Cellulite, Douceur Dorsale, Toucher Shiatsu"',
+		'Massages à domicile à Bruxelles – Nivelles – Courcelles - Namur - Mons : Voyage des Sens, Massage Anti-Stress, Anti-Cellulite, Douceur Dorsale, Toucher Shiatsu"',
 	alternates: {
 		canonical: "https://massage-domicile.com/",
 	},
@@ -26,23 +26,13 @@ export default function Home() {
 			</Head>
 			<main className={styles.main}>
 				<div className={styles.description} aria-labelledby="main-heading">
-					<Image
-						src={MassageADomicile}
-						alt="Femme souriante recevant un massage à domicile"
-						placeholder="blur"
-						quality={100}
-						sizes="100vw"
-						className={styles.imgBanniere}
-						title="Ce sourire en dit long sur le massage relaxant qu'elle reçoit"
-					/>
-					<h1 id="main-heading">Votre Massage à Domicile Bruxelles + 40 km</h1>
+					
+					<h1 id="main-heading">Votre Massage à Domicile Bruxelles + 50 km - Nivelles - Courcelles</h1>
 					<section>
 						<div>
 							<div className={styles.serviceContainer} aria-labelledby="massage-voyage-sens-heading">
-								<h2 id="massage-voyage-sens-heading">Massage &apos;Voyage des Sens&apos; - 2h</h2>{" "}
-								<span className={styles.price} aria-label="Prix: 165 euros">
-									165€
-								</span>
+								<h2 id="massage-voyage-sens-heading">Massage &apos;Voyage des Sens&apos;</h2>{" "}
+								
 							</div>
 							<p>
 								Ce massage doux est une invitation à un voyage intérieur, où chaque toucher est conçu afin d&apos;éveiller les sens et procurer une
@@ -54,10 +44,8 @@ export default function Home() {
 						</div>
 						<div>
 							<div className={styles.serviceContainer} aria-labelledby="massage-anti-stress-heading">
-								<h2 id="massage-anti-stress-heading">Massage &apos;Anti-Stress&apos; - 1h30</h2>
-								<span className={styles.price} aria-label="Prix: 130 euros">
-									130€
-								</span>
+								<h2 id="massage-anti-stress-heading">Massage &apos;Anti-Stress&apos;</h2>
+								
 							</div>
 							<p>
 								Dans le tourbillon incessant de la vie moderne, le stress s&apos;infiltre souvent, s&apos;accumulant silencieusement en nos muscles, nos
@@ -70,10 +58,8 @@ export default function Home() {
 						</div>
 						<div>
 							<div className={styles.serviceContainer} aria-labelledby="massage-anti-cellulite-heading">
-								<h2 id="massage-anti-cellulite-heading">Massage &apos;Anti-Cellulite&apos; - 1h30</h2>
-								<span className={styles.price} aria-label="Prix: 135 euros">
-									135€
-								</span>
+								<h2 id="massage-anti-cellulite-heading">Massage &apos;Anti-Cellulite&apos;</h2>
+					
 							</div>
 							<p>
 								La cellulite, aussi surnommée &apos;peau d&apos;orange&apos;, est un phénomène naturel que beaucoup cherchent à atténuer. Le massage
@@ -87,10 +73,8 @@ export default function Home() {
 						</div>
 						<div>
 							<div className={styles.serviceContainer} aria-labelledby="massage-douceur-dorsale-heading">
-								<h2 id="massage-douceur-dorsale-heading">&apos;Douceur Dorsale&apos; - 1h30 / 2h</h2>
-								<span className={styles.price} aria-label="Prix: 130 / 165 euros">
-									130€ / 165€
-								</span>
+								<h2 id="massage-douceur-dorsale-heading">&apos;Douceur Dorsale&apos;</h2>
+								
 							</div>
 							<p>
 								Le dos, cette vaste étendue de muscles, de tendons et de vertèbres, est souvent le théâtre de tensions accumulées, que ce soit par les
@@ -103,10 +87,8 @@ export default function Home() {
 						</div>
 						<div>
 							<div className={styles.serviceContainer} aria-labelledby="massage-shiatsu-heading">
-								<h2 id="massage-shiatsu-heading">&apos;Toucher Shiatsu&apos; - 1h30 / 2h</h2>
-								<span className={styles.price} aria-label="Prix: 130 / 165 euros">
-									130€ / 165€
-								</span>
+								<h2 id="massage-shiatsu-heading">&apos;Toucher Shiatsu&apos;</h2>
+								
 							</div>
 							<p>
 								Le &apos;Toucher Shiatsu&apos;, originaire du Japon, est une pratique thérapeutique ancienne qui s&apos;inscrit dans la tradition de la
@@ -119,16 +101,21 @@ export default function Home() {
 							</p>
 						</div>
 						<div className={styles.travel}>
+							<h2>Si vous désirez un <Link href={"/nivelles"} className={styles.link} >massage à Nivelles</Link>, <Link href={"/courcelles"} className={styles.link} >Courcelles</Link>, <Link href={"/namur"} className={styles.link} >Namur</Link>, <Link href={"/charleroi"} className={styles.link} >Charleroi</Link>, <Link href={"/mons"} className={styles.link} >Mons</Link>, <Link href={"/bruxelles"} className={styles.link} >Bruxelles</Link> ou <Link href={"/halle"} className={styles.link} >Halle</Link></h2>
 							<ul>
+								<li>Votre séance bien-être de 1h30 est disponible pour 99€. Vous pouvez si vous le désirez étendre ce plaisir à 2 heures pour seulement 129€.</li>
+								<li>Si vous optez pour un massage à domicile, une indemnité de déplacement de minimum 15€ selon la région vous sera demandé. </li>
 								<li>
-									Cela comprend le <strong className={styles.underline}>temps de déplacement</strong>, le{" "}
-									<strong className={styles.underline}>carburant</strong>, le <strong className={styles.underline}>parking</strong>, le montage sur
-									place & le <strong className={styles.underline}>soin</strong>.
+									L'indemnité de déplacement comprend : le <strong className={styles.underline}>temps de déplacement</strong>, le{" "}
+									<strong className={styles.underline}>carburant</strong>, le <strong className={styles.underline}>parking</strong>, le <strong className={styles.underline}>montage sur
+									place</strong> & le <strong className={styles.underline}>démontage</strong>.
 								</li>
+								<li>Il n&apos;y a bien entendu aucune indemnitées de déplacement si vous vous déplacez à mon cabinet pour un moment de détente à <strong className={styles.underline}>Trazegnies</strong>.</li>
 								<li>J&apos;apporte tout le matériel (table et huiles de massage).</li>
-								<li>Je me déplace dans un rayon de 40 km autour de Beersel</li>
+								<li>Je me déplace dans un rayon de 50 km autour de Nivelles.</li>
 								<li>Possibilité de vous offrir un massage à domicile jusque 4h</li>
 							</ul>
+
 						</div>
 					</section>
 					<div className={styles.GoogleMApContainer}>
@@ -138,7 +125,7 @@ export default function Home() {
 						<Slider items={carouselItems} />
 					</div>
 				</div>
-				<Footer />
+				
 				<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataHomePage) }} />
 			</main>
 		</>
