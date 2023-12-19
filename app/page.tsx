@@ -106,7 +106,7 @@ export default function Home() {
 								<li>Votre séance bien-être de 1h30 est disponible pour 99€. Vous pouvez si vous le désirez étendre ce plaisir à 2 heures pour seulement 129€.</li>
 								<li>Si vous optez pour un massage à domicile, une indemnité de déplacement de minimum 15€ selon la région vous sera demandé. </li>
 								<li>
-									L'indemnité de déplacement comprend : le <strong className={styles.underline}>temps de déplacement</strong>, le{" "}
+									L&apos;indemnité de déplacement comprend : le <strong className={styles.underline}>temps de déplacement</strong>, le{" "}
 									<strong className={styles.underline}>carburant</strong>, le <strong className={styles.underline}>parking</strong>, le <strong className={styles.underline}>montage sur
 									place</strong> & le <strong className={styles.underline}>démontage</strong>.
 								</li>
