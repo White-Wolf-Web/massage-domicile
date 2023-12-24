@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 			siteName: "Massage à domicile sur Charleroi",
 			images: [
 				{
-					url: "",
+					url: "https://scontent.fbru5-1.fna.fbcdn.net/v/t39.30808-6/302285048_520328883430641_3223806519242256093_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=783fdb&_nc_ohc=siONhKajSboAX8L1FR4&_nc_ht=scontent.fbru5-1.fna&oh=00_AfA3SHOctjkC4saNnw9GbL3l6HpQs5lSxdp-1eh2E55TSw&oe=658C89CA",
 					width: 800,
 					height: 600,
 					alt: "Avant et après avoir recu un massage",
