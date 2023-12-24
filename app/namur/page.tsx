@@ -6,7 +6,23 @@ export const metadata: Metadata = {
 	title: "Massage à domicile – Namur & alentours",
 	description: 'Massages à domicile à Namur & alentours. Voyage des Sens, Massage Anti-Stress, Anti-Cellulite, Douceur Dorsale, Toucher Shiatsu"',
 	alternates: {
-		canonical: "https://massage-domicile.com/namur",
+		canonical: "https://massage-domicile.com/namur"
+	},
+	openGraph: {
+		title: "Massage à domicile dans la province de Namur",
+		description: "Vous désirez recevoir un massage relaxant chez vous, nous nous déplaçons dans la province de Namur. ",
+		url: "https://massage-domicile.com/namur",
+		siteName: "Massage à domicile sur Namur",
+		images: [
+			{
+				url: "",
+				width: 800,
+				height: 600,
+				alt: "Avant et après avoir recu un massage",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
 	},
 };
 

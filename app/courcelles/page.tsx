@@ -6,7 +6,23 @@ export const metadata: Metadata = {
 	title: "Massage à domicile – Courcelles & alentours",
 	description: 'Massages à domicile à Courcelles & alentours. Voyage des Sens, Massage Anti-Stress, Anti-Cellulite, Douceur Dorsale, Toucher Shiatsu"',
 	alternates: {
-		canonical: "https://massage-domicile.com/courcelles",
+		canonical: "https://massage-domicile.com/courcelles"
+	},
+	openGraph: {
+		title: "Massage à domicile à Courcelles",
+		description: "Vous désirez recevoir un massage relaxant chez vous, nous nous déplaçons dans la province de Namur. ",
+		url: "https://massage-domicile.com/courcelles",
+		siteName: "Massage à domicile sur Courcelles",
+		images: [
+			{
+				url: "",
+				width: 800,
+				height: 600,
+				alt: "Avant et après avoir recu un massage",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
 	},
 };
 

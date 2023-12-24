@@ -7,9 +7,24 @@ export const metadata: Metadata = {
 	title: "Massage à domicile – Charleroi & alentours",
 	description: 'Massages à domicile à Charleroi & alentours. Voyage des Sens, Massage Anti-Stress, Anti-Cellulite, Douceur Dorsale, Toucher Shiatsu"',
 	alternates: {
-		canonical: "https://massage-domicile.com/charleroi",
-	},
-};
+		canonical: "https://massage-domicile.com/charleroi"},
+		openGraph: {
+			title: "Massage à domicile dans la province de Charleroi",
+			description: "Vous désirez recevoir un massage relaxant chez vous, nous nous déplaçons dans la province de Charleroi. ",
+			url: "https://massage-domicile.com/charleroi",
+			siteName: "Massage à domicile sur Charleroi",
+			images: [
+				{
+					url: "",
+					width: 800,
+					height: 600,
+					alt: "Avant et après avoir recu un massage",
+				},
+			],
+			locale: "fr-fr",
+			type: "website",
+		},
+	};
 
 export default function Charleroi() {
 	return (

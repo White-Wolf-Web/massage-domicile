@@ -6,7 +6,23 @@ export const metadata: Metadata = {
 	title: "Massage à domicile – Bruxelles",
 	description: 'Massages à domicile à Bruxelles Voyage des Sens, Massage Anti-Stress, Anti-Cellulite, Douceur Dorsale, Toucher Shiatsu"',
 	alternates: {
-		canonical: "https://massage-domicile.com/bruxelles",
+		canonical: "https://massage-domicile.com/bruxelles"
+	},
+	openGraph: {
+		title: "Massage à domicile à Bruxelles Capitale",
+		description: "Vous désirez recevoir un massage relaxant chez vous, nous nous déplaçons dans la capitale de Bruxelles. ",
+		url: "https://massage-domicile.com/bruxelles",
+		siteName: "Massage à domicile sur Bruxelles Capitale",
+		images: [
+			{
+				url: "",
+				width: 800,
+				height: 600,
+				alt: "Avant et après avoir recu un massage",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
 	},
 };
 

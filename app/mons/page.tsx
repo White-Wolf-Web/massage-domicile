@@ -6,7 +6,23 @@ export const metadata: Metadata = {
 	title: "Massage à domicile – Mons & alentours",
 	description: 'Massages à domicile à Mons & alentours. Voyage des Sens, Massage Anti-Stress, Anti-Cellulite, Douceur Dorsale, Toucher Shiatsu"',
 	alternates: {
-		canonical: "https://massage-domicile.com/mons",
+		canonical: "https://massage-domicile.com/mons"
+	},
+	openGraph: {
+		title: "Massage à domicile dans la province de Mons",
+		description: "Vous désirez recevoir un massage relaxant chez vous, nous nous déplaçons dans la province de Mons. ",
+		url: "https://massage-domicile.com/mons",
+		siteName: "Massage à domicile sur Mons",
+		images: [
+			{
+				url: "",
+				width: 800,
+				height: 600,
+				alt: "Avant et après avoir recu un massage",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
 	},
 };
 

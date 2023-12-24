@@ -7,7 +7,23 @@ export const metadata: Metadata = {
 	title: "Massage à domicile – Halle & alentours",
 	description: 'Massages à domicile à Nivelles & alentours. Voyage des Sens, Massage Anti-Stress, Anti-Cellulite, Douceur Dorsale, Toucher Shiatsu"',
 	alternates: {
-		canonical: "https://massage-domicile.com/halle",
+		canonical: "https://massage-domicile.com/halle"
+	},
+	openGraph: {
+		title: "Massage à domicile dans la province de Hal",
+		description: "Vous désirez recevoir un massage relaxant chez vous, nous nous déplaçons dans la province de Halle. ",
+		url: "https://massage-domicile.com/Halle",
+		siteName: "Massage à domicile sur Halle",
+		images: [
+			{
+				url: "",
+				width: 800,
+				height: 600,
+				alt: "Avant et après avoir recu un massage",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
 	},
 };
 
