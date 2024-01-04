@@ -21,6 +21,14 @@
     height: auto;
   }
 
+  .footerTown {
+    color: gray;
+    text-decoration: none;
+  }
+  .footerTown:hover {
+    color: lightgray;
+  }
+
   @media (min-width: 701px) and (max-width: 900px) {
     .imgLettreOr {
       width: 270px;

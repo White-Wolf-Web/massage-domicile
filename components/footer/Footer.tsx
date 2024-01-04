@@ -26,6 +26,16 @@ export function Footer  ()  {
           
           </div>
           <div className={styles.footerBottom}>
+          <Link href={"/"} className={styles.footerTown} >Massage à Domicile: </Link>&nbsp;
+          <Link href={"/bruxelles"} className={styles.footerTown} >Bruxelles,</Link>&nbsp;
+          <Link href={"/charleroi"} className={styles.footerTown} >Charleroi,</Link>&nbsp;
+          <Link href={"/courcelles"} className={styles.footerTown} >Courcelles,</Link>&nbsp;
+          <Link href={"/halle"} className={styles.footerTown} >Hal,</Link>&nbsp;
+          <Link href={"/mons"} className={styles.footerTown} >Mons,</Link>&nbsp;
+          <Link href={"/namur"} className={styles.footerTown} >Namur,</Link>&nbsp;
+          <Link href={"/nivelles"} className={styles.footerTown} >Nivelles ...</Link>&nbsp;
+          </div>
+          <div className={styles.footerBottom}>
             <p>&copy; {new Date().getFullYear()} Massage à Domicile - Tous droits réservés.</p>
           </div>
         </footer>
