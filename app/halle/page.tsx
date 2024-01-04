@@ -5,7 +5,7 @@ import GoogleMap from "@/components/googleMap/GoogleMap";
 
 export const metadata: Metadata = {
 	title: "Massage à domicile – Halle & alentours",
-	description: 'Massages à domicile à Nivelles & alentours. Voyage des Sens, Massage Anti-Stress, Anti-Cellulite, Douceur Dorsale, Toucher Shiatsu"',
+	description: 'Massages à domicile à Halle & alentours. Voyage des Sens, Massage Anti-Stress, Anti-Cellulite, Douceur Dorsale, Toucher Shiatsu"',
 	alternates: {
 		canonical: "https://massage-domicile.com/halle"
 	},
