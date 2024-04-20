@@ -67,7 +67,7 @@ export default function Courcelles() {
 								<h2 id="massage-shiatsu-courcelles-heading">&apos;Toucher Shiatsu&apos;</h2>
 							</div>
 							<p>
-								Expérimentez le pouvoir apaisant du &apos;Toucher Shiatsu&apos; dans notre établissement à Trazegnies. Ce massage traditionnel japonais, adapté à vos besoins, est une
+							<strong>Expérimentez le pouvoir apaisant du &apos;Toucher Shiatsu&apos; dans notre établissement à Trazegnies (Courcelles)</strong>. Ce massage traditionnel japonais, adapté à vos besoins, est une
 								invitation à l&apos;équilibre et à l&apos;harmonie. C&apos;est une occasion unique de se reconnecter avec soi-même, de retrouver un bien-être profond dans un espace qui
 								respire le calme et la sérénité.
 							</p>

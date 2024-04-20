@@ -56,7 +56,7 @@ export default function Namur() {
 							</div>
 							<p>
 								Découvrez notre massage &apos;Anti-Cellulite&apos;, un soin ciblé pour améliorer l&apos;apparence de votre peau. Ce massage combine des techniques spécifiques pour
-								raffermir et lisser la peau, tout en offrant un moment de détente profonde. C&apos;est l&apos;occasion parfaite de prendre soin de soi dans un cadre paisible et
+								raffermir et lisser la peau, tout en offrant un <strong>moment de détente profonde</strong>. C&apos;est l&apos;occasion parfaite de prendre soin de soi dans un cadre paisible et
 								régénérant.
 							</p>
 						</div>
@@ -76,7 +76,7 @@ export default function Namur() {
 							</div>
 							<p>
 								Notre massage &apos;Toucher Shiatsu&apos; est une expérience holistique unique. Basé sur les principes ancestraux de la médecine orientale, ce massage favorise
-								l&apos;équilibre énergétique et procure un bien-être global. Dans notre havre de paix, laissez-vous transporter par cette pratique thérapeutique profonde pour une
+								l&apos;équilibre énergétique et <strong>procure un bien-être global</strong>. Dans notre havre de paix, laissez-vous transporter par cette pratique thérapeutique profonde pour une
 								harmonie parfaite entre corps et esprit.
 							</p>
 						</div>

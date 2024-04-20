@@ -56,7 +56,7 @@ export default function Mons() {
 							</div>
 							<p>
 								Notre massage &apos;Anti-Cellulite&apos; est une approche complète pour améliorer l&apos;aspect de la peau et favoriser le bien-être. Ce soin combine des techniques de
-								massage efficaces pour tonifier et lisser la peau, offrant un moment de détente tout en prenant soin de votre silhouette. C&apos;est une occasion idéale de se
+								<strong>massage efficaces pour tonifier et lisser la peau</strong>, offrant un moment de détente tout en prenant soin de votre silhouette. C&apos;est une occasion idéale de se
 								chouchouter dans un environnement accueillant et apaisant.
 							</p>
 						</div>
@@ -66,7 +66,7 @@ export default function Mons() {
 							</div>
 							<p>
 								Découvrez notre massage &apos;Douceur Dorsale&apos;, un soin spécialement conçu pour apporter détente et soulagement au dos. Ce massage est une exploration détaillée
-								des zones de tension, offrant une libération et une revitalisation complète. Profitez d&apos;un moment de calme et de bien-être, et laissez-vous transporter vers un
+								des <strong>zones de tension</strong>, offrant <strong>une libération</strong> et une revitalisation complète. Profitez d&apos;un moment de calme et de bien-être, et laissez-vous transporter vers un
 								état de détente absolue.
 							</p>
 						</div>

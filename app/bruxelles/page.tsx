@@ -82,7 +82,7 @@ export default function Bruxelles() {
 								
 							</div>
 							<p>
-								Notre massage &apos;Anti-Stress&apos; est votre refuge contre les pressions de la vie moderne. Conçu pour libérer les tensions et revitaliser
+								<strong>Notre massage &apos;Anti-Stress&apos; est votre refuge contre les pressions de la vie moderne.</strong> Conçu pour libérer les tensions et revitaliser
 								l&apos;esprit, il est une oasis de calme au sein de la ville de Bruxelles. Profitez de ce moment de détente pour vous ressourcer et retrouver un équilibre intérieur, grâce
 								à des techniques qui dissipent le stress et favorisent une relaxation profonde.
 							</p>

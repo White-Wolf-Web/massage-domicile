@@ -101,7 +101,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className={styles.travel}>
-							<h2>Si vous désirez un <Link href={"/nivelles"} className={styles.link} >massage à Nivelles</Link>, <Link href={"/courcelles"} className={styles.link} >Courcelles</Link>, <Link href={"/namur"} className={styles.link} >Namur</Link>, <Link href={"/charleroi"} className={styles.link} >Charleroi</Link>, <Link href={"/mons"} className={styles.link} >Mons</Link>, <Link href={"/bruxelles"} className={styles.link} >Bruxelles</Link> ou <Link href={"/halle"} className={styles.link} >Halle</Link></h2>
+							<div>Si vous désirez un <strong><Link href={"/nivelles"} className={styles.link} >massage à Nivelles</Link>, <Link href={"/courcelles"} className={styles.link} >Courcelles</Link>, <Link href={"/namur"} className={styles.link} >Namur</Link>, <Link href={"/charleroi"} className={styles.link} >Charleroi</Link>, <Link href={"/mons"} className={styles.link} >Mons</Link>, <Link href={"/bruxelles"} className={styles.link} >Bruxelles</Link> ou <Link href={"/halle"} className={styles.link} >Halle</Link></strong></div>
 							<ul>
 								<li>Votre séance bien-être de 1h30 est disponible pour 99€. Vous pouvez si vous le désirez étendre ce plaisir à 2 heures pour seulement 129€.</li>
 								<li>Si vous optez pour un massage à domicile, une indemnité de déplacement de minimum 15€ selon la région vous sera demandé. </li>
@@ -110,7 +110,6 @@ export default function Home() {
 									<strong className={styles.underline}>carburant</strong>, le <strong className={styles.underline}>parking</strong>, le <strong className={styles.underline}>montage sur
 									place</strong> & le <strong className={styles.underline}>démontage</strong>.
 								</li>
-								<li>Il n&apos;y a bien entendu aucune indemnitées de déplacement si vous vous déplacez à mon cabinet pour un moment de détente à <strong className={styles.underline}>Trazegnies</strong>.</li>
 								<li>J&apos;apporte tout le matériel (table et huiles de massage).</li>
 								<li>Je me déplace dans un rayon de 50 km autour de Nivelles.</li>
 								<li>Possibilité de vous offrir un massage à domicile jusque 4h</li>

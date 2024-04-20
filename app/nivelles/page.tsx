@@ -48,7 +48,7 @@ export default function Nivelles() {
 									<h2 id="massage-douceur-dorsale-nivelles-heading">&apos;Douceur Dorsale&apos;</h2>
 								</div>
 								<p>
-									Redécouvrez le confort d&apos;un dos détendu avec notre massage &apos;Douceur Dorsale&apos;. Spécialement conçu pour cibler les tensions dorsales, ce
+								<strong>Redécouvrez le confort d&apos;un dos détendu</strong> avec notre massage &apos;Douceur Dorsale&apos;. Spécialement conçu pour cibler les tensions dorsales, ce
 									massage apporte une relaxation profonde et un soulagement durable. Profitez d&apos;un soin sur mesure dans un cadre tranquille et apaisant, idéal pour se ressourcer
 									et retrouver une mobilité tout en douceur.
 								</p>
@@ -71,7 +71,7 @@ export default function Nivelles() {
 								</div>
 								<p>
 									Vivez une expérience de bien-être traditionnelle avec notre &apos;Toucher Shiatsu&apos;. Ce soin ancestral japonais, adapté pour répondre aux besoins
-									contemporains, offre une pause régénératrice, une reconnexion avec soi-même. Profitez de ce moment unique chez vous, qui deviendra le temps d&apos;un instant un lieu de calme et de
+									contemporains, <strong>offre une pause régénératrice</strong>, une reconnexion avec soi-même. Profitez de ce moment unique chez vous, qui deviendra le temps d&apos;un instant un lieu de calme et de
 									ressourcement en plein cœur de Nivelles.
 								</p>
 							</div>

@@ -47,7 +47,7 @@ export default function Halle() {
 								<h2 id="massage-douceur-dorsale-hal-heading">&apos;Douceur Dorsale&apos;</h2>
 							</div>
 							<p>
-								Notre massage &apos;Douceur Dorsale&apos; est une solution idéale pour ceux qui ressentent des tensions dans le dos. Ce soin est une exploration approfondie des points
+								Notre massage &apos;Douceur Dorsale&apos; est une <strong>solution idéale</strong> pour ceux qui ressentent des tensions dans le dos. Ce soin est une exploration approfondie des points
 								de tension, offrant un soulagement et une relaxation inégalés. Profitez d&apos;un moment de détente dans un cadre serein, une expérience de soin personnalisée pour
 								votre dos.
 							</p>
@@ -77,7 +77,7 @@ export default function Halle() {
 								<h2 id="massage-anti-stress-hal-heading">Massage &apos;Anti-Stress&apos;</h2>
 							</div>
 							<p>
-								Notre massage &apos;Anti-Stress&apos; est un havre de paix pour ceux qui cherchent à échapper au stress quotidien. Ce soin offre un moment de détente profonde, une
+								Notre massage &apos;Anti-Stress&apos; est un havre de paix <strong>pour ceux qui cherchent à échapper au stress quotidien.</strong> Ce soin offre un moment de détente profonde, une
 								pause pour rééquilibrer l&apos;esprit et apaiser le corps. Chaque geste est une caresse vers la tranquillité, un chemin vers un état de relaxation et de bien-être
 								total.
 							</p>

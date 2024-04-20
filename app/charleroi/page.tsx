@@ -58,7 +58,7 @@ export default function Charleroi() {
 								
 							</div>
 							<p>
-								Notre massage &apos;Anti-Cellulite&apos; est une solution esthétique et relaxante. Conçu pour atténuer l&apos;aspect de la cellulite, ce soin combine des techniques
+							<strong>Notre massage &apos;Anti-Cellulite&apos; est une solution esthétique et relaxante.</strong> Conçu pour atténuer l&apos;aspect de la cellulite, ce soin combine des techniques
 								efficaces pour une peau plus ferme et lisse. Profitez de ce moment pour prendre soin de votre corps et de votre esprit, dans un espace familier qui invite à la relaxation et au
 								bien-être.
 							</p>
@@ -81,7 +81,7 @@ export default function Charleroi() {
 							</div>
 							<p>
 								Découvrez notre massage &apos;Anti-Stress&apos;, une bulle de détente dans l&apos;effervescence urbaine. Ce soin vise à relâcher les tensions accumulées, apportant une
-								relaxation profonde et un rééquilibrage de l&apos;esprit. C&apos;est une invitation à prendre un moment pour soi, à se déconnecter du stress quotidien pour retrouver paix et
+								<strong>relaxation profonde et un rééquilibrage de l&apos;esprit</strong>. C&apos;est une invitation à prendre un moment pour soi, à se déconnecter du stress quotidien pour retrouver paix et
 								harmonie.
 							</p>
 						</div>
