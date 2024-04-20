@@ -17,6 +17,7 @@ export const montserrat = Montserrat({
 	display: "swap",
 });
 
+
 export const metadata = {
 	referrer: "origin-when-cross-origin",
 	colorScheme: "light",
@@ -24,18 +25,18 @@ export const metadata = {
 	robots: {
 		index: true,
 		follow: true,
-		nocache: true,
 		googleBot: {
 			index: true,
 			follow: true,
-			noimageindex: true,
 			"max-video-preview": -1,
 			"max-image-preview": "large",
+			'max-snippet': -1,
 		},
 	},
 	viewport: {
 		width: "device-width",
 		initialScale: 1,
+		userScalable: true,
 	},
 	verification: {
 		google: "google",
